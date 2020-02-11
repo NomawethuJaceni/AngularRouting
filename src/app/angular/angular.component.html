@@ -1,1 +1,23 @@
 <p>angular works!</p>
+<form [formGroup]="myGroup">
+
+   
+    <div>
+        <label>Email</label>
+        <input formControlName="firstName">
+    </div>
+  <br>
+
+    <div>
+      <label for="address">
+        Password
+      </label>
+      <input id="address" type="text" formControlName="address">
+    </div>
+ 
+    
+  
+  </form> <br><br>
+  <form action="../aws/aws.component.html">
+    <input type="submit" class="buttonSubmit" value="Sign In" id="button" />
+</form>
